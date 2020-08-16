@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+    </head>
+    <body>
+        <header>
+            <a href="#"><span class="hText">Google</span>
+                </a>
+            <span id="aText">Advnced Search</span>
+        </header>
+        <content>
+            <form action="#">
+                <p>Find pages with...</p>
+                <label for="aW">all these words</label>
+                    <input type="text" id="aW" name="all_words">
+                <label for="eW">this exact word or phrase</label>
+                    <input type="text" id="eW" name="exact_words">
+                <label for="any">any of these words</label>
+                    <input type="text" id="any" name="any_word">
+                <label for="nW">none of the words</label>
+                    <input type="text" id="nW" name="excluded words">
+                <label for="nR">
+                    <input type="number" id="nR" name="rStart"> to 
+                    <input type="number" id="nR" name="rEnd">
+                </label>
+                <p>Then narrow your results</p>
+                <label for="languages">any language</label>
+                <select name="lang" id="languages">
+                    <option value="en">English</option>
+                    <option value="sh">Shona</option>
+                    <option value="nd">Ndebele</option>
+                </select>
+                <label for="region">region</label>
+                <select name="region" id="region">
+                    <option value="Rostov">Rostov</option>
+                    <option value="Volgograd">Volgograd</option>
+                    <option value="Moscow">Moscow</option>
+                </select>
+                <label for="lD">last update</label>
+                <select name="lUpdate" id="lD">
+                    <option value="l24">last 24 hours</option>
+                    <option value="l48">last 48 hours</option>
+                    <option value="lw">last week</option>
+                    <option value="lm">last month</option>
+                    <option value="l">last year</option>
+                </select>
+                <label for="site">site or domain</label>
+                <input type="text" id="site" name="site">
+                <label for="sS" class="special">Safe search</label>
+                <select name="sS" id=""sS>
+                    <option value="relevant_results">Show most relevant results</option>
+                    <option value="filter_explicit">Remove explicit results</option>
+                </select>
+                <label for="fF">file format</label>
+                <select name="fF" id="fF">
+                    <option value="any">any format</option>
+                    <option value="pdf">Adobe Acrobat (.pdf)</option>
+                    <option value="docx">Word document (.docx)</option>
+                    <option value="png">Image (.png)</option>
+                </select>
+                <label for="uR">usage rights</label>
+                <select name="uR" id="uR">
+                    <option value="openS">free to use or Share</option>
+                    <option value="uK">not filtered by licence</option>
+                </select>
+                <input type="submit" value="Advanced Search">
+            </form>
+        </content>
+    </body>
+</html>

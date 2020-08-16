@@ -1,0 +1,33 @@
+/*google letters
+h1 {
+    align: center;
+    font-family: sans-serif;
+}
+
+#bl {
+    color: rgba(31, 31, 189, 0.9);
+}
+
+#rl {color: rgba(250, 00, 00, 0.9);
+}
+
+#yl {
+    color: rgb(138, 138, 11);
+}
+
+#gl {
+    color: green;
+}
+*/
+a {
+    background-color: transparent;
+    text-align: right;
+}
+
+img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*search bar*/
