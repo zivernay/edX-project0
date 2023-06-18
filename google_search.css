@@ -1,4 +1,7 @@
-:root {
+:root,
+form,
+input, 
+button {
     box-sizing: border-box;
     font: normal 14px/21px Arial, sans-serif;;
 }
@@ -21,6 +24,7 @@ main {
    flex-direction: column;
    align-items: center;
    flex: 0 1 auto;
+   min-width: 240px;
 }
 
 /*
@@ -37,40 +41,23 @@ main {
     margin: 3rem 0;
     padding: 0.5rem;
 }
-
-
-
-div[id="image"] img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    margin-bottom: 30px;
+#search {
+    width: 100%;
+    max-width: 46rem;
 }
-
-/*search bar*/
-input[type="text"]{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    width: 450px;
-    height: 50px;
-    border: 2px solid #ccc;
-    border-radius: 25px;
+#search > input {
+    width: 100%;
+    font-size: 1.38rem;
+    line-height: 1.62;
+    font-weight: 500;
+    padding-left: 2em;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
     background-color: white;
     background-image: url(images/search.png);
-    background-position: 5px 5px ;
-    background-size: 40px;
+    background-size: 1.38em;
     background-repeat: no-repeat;
-    padding: 5px;
-    padding-left: 50px;
-    font-size: 18px;
-}
-input[type="text"]:e{
-    background: white;
-    background-image: none;
+    background-position: 0.38rem center;
 }
 
 
