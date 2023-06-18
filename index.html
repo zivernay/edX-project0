@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="google_search.css">
         <meta http-equiv="refresh" content="30">
     </head>
     <body>
-        <div class="H&L">
-        <!--h1>
-            <span id="bl">G</span>
-            <span id="rl">o</span>
-            <span id="yl">o</span>
-            <span id="bl">g</span>
-            <span id="gl">l</span>
-            <span id="rl">e</span>
-        </h1-->
-        <div class="links">
-            <a href="#">Image Search</a>
-            <a href="#">Advanced Search</a>
-        </div>
-        <div id="image">
-            <img src="images/logo.png" alt="Google">
-        </div>
-        <div class="F&B">
-            <form action="https://google.com/search">
+        <header>
+            <nav class="links">
+                <a href="#">Image Search</a>
+                <a href="#">Advanced Search</a>
+            </nav>
+        </header>
+        <main>
+            <div id="logo">
+                <img src="images/logo.png" alt="Google">
+            </div>
+            <form id="search" action="https://google.com/search">
                 <input type="text" name="q" id="searchBox" autofocus>
                 <div id="buttons">
                     <input type="submit" value="Google Search" class="buttons">
                     <button type="submit" value="Google Search" class="buttons" formaction="#">I'm Feeling Lucky</button>
-                </div>
-            
+                </div>   
             </form>
-        </div>
+        </main>
     </body>
 </html>
