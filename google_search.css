@@ -1,30 +1,44 @@
-/*google letters
-h1 {
-    align: center;
-    font-family: sans-serif;
+:root {
+    box-sizing: border-box;
+    font: normal 14px/21px Arial, sans-serif;;
 }
-
-#bl {
-    color: rgba(31, 31, 189, 0.9);
+img {
+    height: auto;
+    width: 100%;
 }
-
-#rl {color: rgba(250, 00, 00, 0.9);
-}
-
-#yl {
-    color: rgb(138, 138, 11);
-}
-
-#gl {
-    color: green;
-}
-*/
-
 a{
     display: block;
     background-color: transparent;
     text-align: left;
 }
+/*
+===========
+ Layout 
+===========
+*/
+main {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   flex: 0 1 auto;
+}
+
+/*
+=============
+ Search Area
+=============
+*/
+#logo {
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+    max-width: 42rem;
+    object-fit: contain;
+    margin: 3rem 0;
+    padding: 0.5rem;
+}
+
+
 
 div[id="image"] img{
     display: block;
