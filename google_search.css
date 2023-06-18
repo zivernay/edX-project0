@@ -38,7 +38,7 @@ main {
     flex: 0 1 auto;
     max-width: 42rem;
     object-fit: contain;
-    margin: 3rem 0;
+    margin: 2rem 0;
     padding: 0.5rem;
 }
 #search {
@@ -48,7 +48,7 @@ main {
 #search > input {
     width: 100%;
     font-size: 1.38rem;
-    line-height: 1.62;
+    line-height: 1.78;
     font-weight: 500;
     padding-left: 2em;
     border: 1px solid #ccc;
@@ -58,17 +58,24 @@ main {
     background-size: 1.38em;
     background-repeat: no-repeat;
     background-position: 0.38rem center;
+    margin: 1.38rem 0;
+}
+#buttons {
+    width: fit-content;
+    margin: 0 auto;
+}
+.button {
+    background-color: rgba(202, 202, 216, 0.23);
+    padding: 0 1.38rem;
+    line-height: 2.62rem;
+    border: transparent;
+    cursor: pointer;
 }
 
-
+/*
 div[id="buttons"]{
     width: 250px;
     height: 45px;
     margin: auto;
 }
 
-button, input[type="submit"]{
-    background-color: rgb(202, 202, 216);
-    padding: 8px;
-    border: transparent;
-}
